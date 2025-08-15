@@ -4,7 +4,7 @@ using namespace std;
 int glo = 6;
 void sum(){
     int a;
-    cout<<glo; // Prints 6
+    cout<<glo; // Prints  6
 }
 
 int main(){
