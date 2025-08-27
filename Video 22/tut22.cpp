@@ -55,7 +55,8 @@ void binary ::chk_bin(void)
 
 void binary ::onesCompliment(void)
 {
-    chk_bin(); // Here we can use check binary and it is called nesting of member
+    chk_bin(); // Here we can use check binary and it is called nesting of member function
+    // A member function can call another member function of the same class directly without using the dot operator. This is called as nesting of member functions.
     for (int i = 0; i < s.length(); i++)
     {
         if (s.at(i) == '0')
