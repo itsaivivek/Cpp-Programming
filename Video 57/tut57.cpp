@@ -56,7 +56,7 @@ int main(){
     title = "Django tutorial Text";
     words = 433;
     rating = 4.19;
-    CWHVideo djText(title, rating
+    CWHText djText(title, rating
     , words);
     // djText.display();
 
